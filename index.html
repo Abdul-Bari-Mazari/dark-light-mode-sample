@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
     <title>Dark/Light Mode Landing Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Website Title</h1>
-        <label class="switch">
-            <input type="checkbox" id="themeToggle">
-            <span class="slider round"></span>
-        </label>
+      <h1>Website Title</h1>
+      <label class="switch">
+        <input
+          onchange="changeTheme()"
+          type="checkbox"
+          id="themeToggle"
+        />
+        <span class="slider round"></span>
+      </label>
     </header>
+
     <div class="content">
-        <h2>Welcome to Our Website</h2>
-        <p>This is a simple landing page with dark and light mode.</p>
-        <a href="#" class="cta">Get Started</a>
+      <h2>Welcome to Our Website</h2>
+      <p>This is a simple landing page with dark and light mode.</p>
+      <a
+        href="#"
+        class="cta"
+        >Get Started</a
+      >
     </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
